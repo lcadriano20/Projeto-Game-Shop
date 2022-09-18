@@ -1,0 +1,106 @@
+@media (max-width:420px) {
+ 
+
+   header>nav {
+    display: none;
+   }
+   #menu-hamburger {
+    color: white;
+    display: block;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    
+    
+   }
+   .banner::after {
+    display: none;
+   }
+   .banner::before {
+    display: none;
+   }
+   .banner {
+      position: relative;
+      display: flex;
+      width: 100%;
+      background-image: url(../img/banner-mobile.svg);
+   }
+   .banner>h2 {
+      position: absolute;
+      color: white;
+      font-size: 2.2rem;
+      top: 30%;
+      left: 15%;
+   }
+   .banner>button {
+      position: absolute;
+      top: 55%;
+      left: 35%;
+   }
+   
+   
+   main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+   }
+   #h2-do-produtos-destaque {
+      margin-bottom: 1rem;
+    font-size: 2rem;
+   }
+
+   .section-produtos-destaque {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   }
+
+.divs-produto-destaque {
+   margin-bottom: 1.2rem;
+    height: 25rem;
+    width: 18rem;
+    
+}
+.h2-produtos-estrelas {
+   margin-bottom: 1rem;
+}
+   #div-cadeira-gamer-computadores {
+   padding-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+   }
+   footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+   #logo-do-footer {
+      display: flex;
+      justify-content: center;
+      padding-left: 0%;
+      width: 100%;
+      
+   }
+   
+
+   #redes-sociais-do-footer {
+      width: 100%;
+      padding-right: 0%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+   }
+   #redes-sociais {
+   display: flex;
+   justify-content: center;
+   }
+   
+   
+}
+
+

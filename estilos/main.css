@@ -1,0 +1,137 @@
+main {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    height: 800px;
+    background-color: #F3F3F3;
+}
+#h2-do-produtos-destaque {
+    text-align: center;
+    font-size: 40px;
+}
+.paragrafo-envio-gratis {
+    color: rgba(97, 157, 0, 1)
+    ;
+}
+
+.section-produtos-destaque {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divs-produto-destaque {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+#div1-produtos-destaque {
+    display: flex;
+    flex-direction: column;
+
+}
+.div1-imagem-ps4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.div1-imagem-ps4>img {
+    padding-bottom: 30px;
+}
+.div1-precos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+#div2-produtos-destaque {
+    display: flex;
+    flex-direction: column;
+
+}
+.div2-imagem-ps4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.div2-imagem-ps4>img {
+    padding-bottom: 30px;
+}
+.div2-precos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+#div3-produtos-destaque {
+    display: flex;
+    flex-direction: column;
+
+}
+.div3-imagem-ps4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.div3-imagem-ps4>img {
+    padding-bottom: 30px;
+}
+.div3-precos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+                    /* PRODUTOS ESTELA */
+
+ 
+ #div-cadeira-gamer-computadores {
+    display: flex;
+    
+    height: 100%;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ 
+.h2-produtos-estrelas {
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.div-cadeira-gamer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    height: 100px;
+    width: 361px;
+    background-image: url(../img/banner-computadores.svg);
+    background-repeat: no-repeat;
+    
+}
+
+
+.div-computadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    height: 100px;
+    width: 361px;
+    background-image: url(../img/banner-cadeira-gamer.svg);
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/ 

@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 216px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+#logo-do-footer {
+    padding-left: 50px;
+}
+#redes-sociais-do-footer {
+    padding-right: 50px;
+}
+#redes-sociais-do-footer>h2 {
+    color: white;
+}
+
+#redes-sociais {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+#footer-final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 196, 196, 1);
+    height: 25px;
+    width: 100%;
+}
